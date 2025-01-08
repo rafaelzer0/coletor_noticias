@@ -28,8 +28,8 @@ def coletar_noticias():
 # Função para enviar o e-mail com as notícias
 def enviar_email(noticias):
     
-    email = 'rafaeljadjada0@gmail.com'
-    with open('senha.txt') as f:
+    email = 'seu_email@gmail.com'
+    with open('sua_senha.txt') as f:
         senha = f.readlines()
 
     senha_do_email = senha[0].strip()  
